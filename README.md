@@ -2,7 +2,7 @@
 
 Random Quote Machine (RQM) v2
 
-My updated take on Free Code Camp's Random Quote Machine challenge; implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.f
+My updated take on Free Code Camp's Random Quote Machine challenge; implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.
 
 Resources used:
 - Bootstrap CSS
