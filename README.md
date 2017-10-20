@@ -2,7 +2,7 @@
 
 Random Quote Machine (RQM) v2
 
-Implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.
+Updated FCC Random Quote Machine challenge, implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.
 
 Resources used:
 
