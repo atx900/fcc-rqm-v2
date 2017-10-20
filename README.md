@@ -2,12 +2,10 @@
 
 Random Quote Machine (RQM) v2
 
-Updated FCC Random Quote Machine challenge, implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.
+My updated take on Free Code Camp's Random Quote Machine challenge; implemented on vanilla JavaScript with CORS (Cross-Origin Resource Sharing) workaround.f
 
 Resources used:
-
-    Bootstrap CSS
-    Google Fonts
-    Forismatic API (Quote Generator)
-    JQuery 2.2.4
-    Twitter API
+- Bootstrap CSS
+- Google Fonts
+- Forismatic API
+- Twitter API
