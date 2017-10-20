@@ -1,0 +1,36 @@
+body {
+  background-color: #282C34;
+  color: white;
+  font-family: 'Concert One', cursive;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#author {
+  color: LightGreen;
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  padding: 1px;
+}
+
+#quote {
+  color: LightBlue;
+  font-size: 28px;
+}
+
+.button-space {
+  padding: 14px 4px;
+}
+
+.quote-box {
+  border: 1px dashed Gray;
+  display: inline-block;
+  padding: 4px 8px;
+}
