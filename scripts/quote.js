@@ -15,8 +15,8 @@ function getQuote () {                                                        //
 
 function displayData (response) {                                             // called from the 'script' variable, CORS workaround
   jsonpData.push(response)
-  quoteMessage = response.quoteText                                           // get quote message
-  quoteAuthor = response.quoteAuthor                                          // get quote author
+  quoteMessage = response.quoteText                                           // get quote message from JSON data
+  quoteAuthor = response.quoteAuthor                                          // get quote author from JSON data
 
   document.getElementById('quote-message').innerHTML = quoteMessage
 
