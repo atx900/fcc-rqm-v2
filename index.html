@@ -4,28 +4,35 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <title>Random Quote Machine (RQM) v2</title>
+    <link rel="stylesheet" href="stylesheets/quote.css">
+    <title>Random Quote Machine v2.1</title>
   </head>
   <body class="container-fluid">
     <div class="row">
       <div class="container text-center">
-        <h1>Random Quote Machine v2</h1>
-        <p></p>
-        <div class="quote-box">
-          <p id="quote"></p>
-          <p id="author"></p>
-        </div>
+        <p>
+          <h1>Random Quote Machine v2.1</h1>
+        </p>
       </div>
     </div>
-    <p></p>
+
+    <!-- Display random quote and its author -->
+
+    <div class="row">
+      <div class="container text-center quote-box">
+        <p id="quote-message"></p>
+        <p id="quote-author"></p>
+      </div>
+    </div>
+
+    <!-- Control Buttons -->
+
     <div class="row">
       <div class="container text-center button-space">
         <button class="btn btn-primary" id="getQuote" name="button">Get Quote</button>
         <button class="btn btn-primary" id="tweetQuote" name="button">Tweet Quote</button>
       </div>
     </div>
-    <script src="scripts/jquery-2.2.4.min.js" charset="utf-8"></script>
-    <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="scripts/quote.js" charset="utf-8"></script>
   </body>
 </html>

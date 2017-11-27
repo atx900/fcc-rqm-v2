@@ -2,7 +2,7 @@ body {
   background-color: #282C34;
   color: white;
   font-family: 'Concert One', cursive;
-  margin: 20px;
+  margin: 18px;
   text-align: center;
 }
 
@@ -10,19 +10,20 @@ h1 {
   font-size: 40px;
 }
 
-#author {
-  color: LightGreen;
-  font-size: 24px;
-}
-
 p {
   font-size: 20px;
   padding: 1px;
 }
 
-#quote {
+#quote-author {
+  color: LightGreen;
+  font-size: 24px;
+  font-style: italic;
+}
+
+#quote-message {
   color: LightBlue;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .button-space {
@@ -30,7 +31,6 @@ p {
 }
 
 .quote-box {
-  border: 1px dashed Gray;
   display: inline-block;
   padding: 4px 8px;
 }
