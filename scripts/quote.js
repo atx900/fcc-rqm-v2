@@ -23,7 +23,7 @@ function displayData (response) {                                             //
   if (quoteAuthor) {
     document.getElementById('quote-author').innerHTML = 'By: ' + quoteAuthor
   } else {
-    quoteAuthor = 'Unknown'
+    quoteAuthor = 'Unknown'                                                   // if the quote doesn't have an author, use 'Unknown'
     document.getElementById('quote-author').innerHTML = 'By: ' + quoteAuthor
   }
 }
